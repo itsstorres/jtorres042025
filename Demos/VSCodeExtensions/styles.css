@@ -1,0 +1,25 @@
+/* This is a CSS comment */
+/* ? This is a CSS question */
+/* ! This is a CSS alert comment */
+/* todo This is a TODO comment */
+/* *this is another regular comment */
+
+
+
+
+
+
+body
+{
+    background-color: slateblue;
+}
+h1
+{
+    color: black;
+    background-color: white;
+    padding: 1rem;
+}
+ul
+{
+font-family: 'Courier New', Courier, monospace;
+}
