@@ -116,6 +116,7 @@ blockquote + span {
   background-color: dimgrey;
   min-height: auto;
   padding: 1rem;
+  color: rgb(222, 222, 222);
 }
 #pagefooter a {
   color: rgb(222, 222, 222);
