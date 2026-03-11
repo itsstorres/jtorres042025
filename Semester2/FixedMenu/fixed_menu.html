@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Menu</title>
+    <style>
+      html {
+        height: 200%;
+      }
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: #000000;
+        margin: 0;
+      }
+      #pageheader {
+        background-color: #ababab;
+        padding: 1rem;
+        /* Default */
+        position: static;
+      }
+      #logo {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        display: block;
+      }
+      #fblogoheader {
+        background-color: #383838;
+      }
+      #pageheader h1 {
+        text-align: center;
+        color: white;
+        /* remove */
+        background-color: #2a2a2a;
+      }
+      #pageheader nav {
+        background-color: #383838;
+        padding: 0.5 rem;
+        border-radius: 10px;
+      }
+      #pageheader ul {
+        padding: 0.5rem;
+        background-color: #6c6c6c;
+        list-style-type: none;
+        /* Flexbox Component */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      #pageheader li {
+        text-align: center;
+        border: 1px solid white;
+        padding: 0.5rem;
+        background-color: #2b2b2b;
+      }
+      #pageheader a {
+        color: white;
+        text-decoration: none;
+      }
+      /* None header elements */
+      main {
+        padding: 1rem;
+      }
+      p {
+        line-height: 1.5;
+        color: #ffffff;
+      }
+
+      @media screen and (min-width: 650px) {
+        body {
+          background-color: rgb(195, 195, 195);
+        }
+        #pageheader {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          /* Flexbox component  */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        #fblogoheader {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+        #pageheader ul {
+          flex-direction: row;
+        }
+        #logo {
+          width: 80px;
+          height: 80px;
+        }
+        #pagehader nav {
+          min-width: 400px;
+        }
+        main {
+          padding-top: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="pageheader">
+      <!-- Start the logo and H1 -->
+      <div id="fblogoheader">
+        <img
+          src="Images/paws_logo.png"
+          alt="Paws and Whiskers Logo"
+          id="logo"
+        />
+        <h1>Paws and Whiskers</h1>
+      </div>
+      <!-- End the log and h1-->
+
+      <!-- Start Navigation -->
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Pets</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- End Navigation -->
+    </header>
+    <main>
+      <h2>Fixed Menu</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed,
+        itaque accusamus incidunt officiis a perspiciatis ut officia totam nam,
+        quos nihil quasi quam eligendi recusandae assumenda, temporibus deleniti
+        illo. Explicabo aliquid exercitationem quia consequatur eius error,
+        saepe nemo consequuntur. Provident quasi maiores, blanditiis eum nam,
+        alias optio nobis dolor odit assumenda perspiciatis reprehenderit
+        aperiam ab vero minus perferendis laborum consequatur. Tenetur odit
+        nihil repudiandae repellat autem quam totam aut, quaerat sed sint
+        veritatis dolorem unde esse, corporis cum aspernatur! Laudantium, eos
+        hic itaque nisi illo dolore nesciunt totam impedit. Consequatur,
+        placeat. Eaque molestias, quam ea nobis incidunt unde possimus?
+      </p>
+    </main>
+  </body>
+</html>
