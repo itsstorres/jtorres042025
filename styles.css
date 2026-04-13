@@ -17,6 +17,7 @@ body {
   margin: auto;
   background-color: rgba(255, 255, 255, 0.159);
   padding: 1rem;
+  text-decoration: none;
 }
 #pageheader {
   background-color: rgb(74, 73, 73);
@@ -42,6 +43,7 @@ body {
 }
 #pageheader a {
   color: rgb(77, 77, 77);
+  text-decoration: none;
 }
 
 #pageheader nav ul {
@@ -73,6 +75,7 @@ body {
 }
 #career a {
   color: rgb(222, 222, 222);
+  text-decoration: none;
 }
 #pagecontent {
   background-color: rgb(9, 213, 213);
@@ -103,14 +106,20 @@ blockquote + span {
 }
 #semester1 a {
   color: rgb(222, 222, 222);
+  text-decoration: none;
 }
 #semester2 {
   background-color: rgb(49, 49, 49);
   min-height: 10rem;
   padding: 1rem;
+  text-decoration: none;
 }
 #semester2 a {
   color: rgb(222, 222, 222);
+  text-decoration: none;
+}
+#semester2 a hover {
+  background-color: red;
 }
 #pagefooter {
   background-color: dimgrey;
