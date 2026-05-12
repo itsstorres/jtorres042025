@@ -44,6 +44,10 @@ body {
 #pageheader a {
   color: rgb(77, 77, 77);
   text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #pageheader nav ul {
@@ -72,15 +76,28 @@ body {
   background-color: rgb(226, 8, 8);
   min-height: 10rem;
   padding: 1rem;
+  font-family: "Intel One Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
 }
 #career a {
   color: rgb(222, 222, 222);
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 400;
+  font-style: italic;
 }
+
 #pagecontent {
   background-color: rgb(9, 213, 213);
   min-height: 10rem;
   padding: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
 }
 blockquote {
   background-color: none;
@@ -103,21 +120,38 @@ blockquote + span {
   background-color: rgb(65, 65, 65);
   min-height: 10rem;
   padding: 1rem;
+  font-family: "Intel One Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
 }
 #semester1 a {
   color: rgb(222, 222, 222);
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 400;
+  font-style: italic;
 }
 #semester2 {
   background-color: rgb(49, 49, 49);
   min-height: 10rem;
   padding: 1rem;
   text-decoration: none;
+  font-family: "Intel One Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
 }
 #semester2 a {
   color: rgb(222, 222, 222);
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 400;
+  font-style: italic;
 }
+
 #semester2 a hover {
   background-color: red;
 }
@@ -129,6 +163,10 @@ blockquote + span {
 }
 #pagefooter a {
   color: rgb(222, 222, 222);
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
 }
 
 #pagefooter .container {
@@ -148,6 +186,10 @@ blockquote + span {
 }
 #aifooter a {
   color: rgb(222, 222, 222);
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
 }
 #subfooter {
   background-color: rgb(131, 131, 131);
